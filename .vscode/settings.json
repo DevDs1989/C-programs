@@ -1,0 +1,8 @@
+{
+  "files.associations": {
+    "format": "cpp",
+    "thread": "cpp",
+    "stdio.h": "c",
+    "string.h": "c"
+  }
+}
