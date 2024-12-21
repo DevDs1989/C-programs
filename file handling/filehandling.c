@@ -2,13 +2,13 @@
 #include <stdlib.h>
 
 int main() {
-    FILE *file = fopen("newfile.txt", "r");
+    FILE *file = fopen("hello.txt", "r");
     if (file == NULL) {
-        perror("Error opening file");
-        exit(EXIT_FAILURE);
+        printf("Error opening file");
+        exit();
     }
     printf("Reading file content line by line:\n");
-    char line[256];
+    char line[300];
     while (fgets(line, sizeof(line), file)) {
         printf("%s", line);
     }
